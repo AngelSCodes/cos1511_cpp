@@ -1,0 +1,2 @@
+As my examination for the module COS1511 approaches I decided to do a revision run by creating mini project to strenghten my understanding of the concepts.
+Eaach day will feature different mini projects based on the concepts I am revising on the day.
