@@ -20,3 +20,26 @@ This is a simple C++ calculator that performs basic arithmetic operations using 
 ## 📤 Output
 - Formatted result with two decimal places
 - Error message if division by zero is attempted
+
+
+# 🌡️ C++ Temperature Converter
+
+## 📂 File
+- `temperature_converter.cpp`
+
+## 🧠 Overview
+This program converts temperatures between Celsius and Fahrenheit based on user input. It uses `if-else` statements to determine the conversion direction and handles both uppercase and lowercase unit entries.
+
+## 🧪 Concepts Practiced
+- Conditional logic with `if`, `else if`, and `else`
+- Input handling with `cin`
+- Basic arithmetic operations
+- User-friendly console formatting
+
+## 📥 Input
+- Unit to convert to: `F` or `C`
+- Temperature value (`double`)
+
+## 📤 Output
+- Converted temperature with unit label
+- Error message for invalid unit input
