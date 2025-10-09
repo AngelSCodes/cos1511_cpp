@@ -1,9 +1,9 @@
-– Day 4 C++ Projects
-
-💳 Banking App:
+💻 Day 4 C++ Projects – Banking App & Rock-Paper-Scissors
 
 📌 Description
-A simple console-based banking application built in C++ to simulate basic account operations. Users can view their balance, deposit funds, and withdraw money with input validation and formatted output.
+Two beginner-friendly C++ console applications built to practice input handling, control flow, and basic logic structures. These projects simulate real-world interactions with clean formatting and user feedback.
+
+🏦 Banking App
 
 🛠️ Features
 - Show current balance with currency formatting (Rxx.xx)
@@ -33,3 +33,29 @@ Your Balance is: R50.00
 🔧 How to Compile
 g++ banking_app.cpp -o banking_app
 ./banking_app
+
+✊ Rock-Paper-Scissors Game
+
+🛠️ Features
+- User input with validation ('r', 'p', 's')
+- Random computer choice using srand and rand
+- Display of both choices
+- Winner logic with tie detection
+- Clean menu and output formatting
+
+📄 Sample Menu
+********** Rock-Paper-Scissors **********
+Choose one of the following:
+******************************************
+'r' for rock
+'p' for paper
+'s' for scissors
+
+🧮 Example Output
+Your choice: Rock
+The computer's choice: Scissors
+You win!
+
+🔧 How to Compile
+g++ rock_paper_scissors.cpp -o rps_game
+./rps_game
